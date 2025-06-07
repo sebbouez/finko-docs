@@ -1,1 +1,4 @@
 # Finko online documentation
+
+<!-- md:version 1.0.0 -->
+<!-- md:feature -->
