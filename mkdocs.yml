@@ -1,3 +1,35 @@
-site_name: Finko docs
+site_name: Finko Docs
+site_url: https://sebbouez.github.io/finko-docs/
 theme:
   name: material
+  extra_css:
+    - assets/css/custom.css
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+nav:
+  - Home: index.md
+  - Privacy: privacy.md
+  - Guides:
+      - Installation: guides/install.md
+      - Utilisation: guides/usage.md
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/sebbouez/finko-docs
