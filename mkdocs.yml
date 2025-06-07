@@ -17,9 +17,6 @@ theme:
 nav:
   - Home: index.md
   - Privacy: privacy.md
-  - Guides:
-      - Installation: guides/install.md
-      - Utilisation: guides/usage.md
 markdown_extensions:
   - admonition
   - codehilite
