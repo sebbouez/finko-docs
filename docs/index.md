@@ -1,1 +1,0 @@
-# Finko online documentation
