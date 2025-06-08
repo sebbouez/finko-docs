@@ -3,7 +3,7 @@ site_url: https://sebbouez.github.io/finko-docs/
 theme:
   name: material
   extra_css:
-    - assets/css/custom.css
+    - stylesheets/custom.css
   language: en
   features:
     - navigation.tabs
@@ -11,6 +11,8 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       primary: custom
+extra_css:
+  - stylesheets/custom.css      
 nav:
   - Home: index.md
   - User Guide: guide.md
