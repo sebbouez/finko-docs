@@ -15,7 +15,11 @@ extra_css:
   - stylesheets/custom.css      
 nav:
   - Home: index.md
-  - User Guide: guide.md
+  - User Guide:
+    - Getting started: guide.md
+    - Filter transactions: guides/filter-account-transactions.md
+    - Recurring transactions: guides/recurring-transactions.md
+  - Updates: changelog.md
   - Privacy: privacy.md
 markdown_extensions:
   - admonition
@@ -26,6 +30,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
 extra:
   social:
     - icon: fontawesome/brands/github
