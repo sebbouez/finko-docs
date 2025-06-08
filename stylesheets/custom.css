@@ -1,12 +1,13 @@
 :root {
-    --md-text-font: 'Segoe UI Variable Text', 'Segoe UI', system-ui, sans-serif;
+    --md-text-font: 'Segoe UI Variable Text', "Segoe UI", "Segoe UI Web", "wf_segoe-ui_normal", "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif;
     --md-code-font: 'Fira Code', monospace;
-
 
     --md-primary-fg-color: #076F38; /* Couleur principale */
     --md-primary-bg-color: #ffffff; /* Fond principal */
     --md-accent-fg-color: #076F38; /* Couleur d'accent */
     --md-typeset-color: #242424;
+
+    --md-note-bg-color: #F5F5F5;
 }
 
 
@@ -14,15 +15,24 @@
     background-color: #0E5C2F;
 }
 
+.md-typeset {
+    line-height: 1.5;
+}
+
 .md-typeset .admonition,
 .md-typeset details {
     box-shadow: none;
     border-width: 0;
-    border-left-width: 4px;
+    font-size: 1em;
+    background: var(--md-note-bg-color);
 }
 
 .md-typeset h1,
 .md-typeset h2 {
     font-weight: 700;
     color: #242424;
+}
+
+.md-typeset code{
+    font-size: 1em;
 }

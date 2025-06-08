@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://sebbouez.github.io/finko-docs/guides/recurring-transactions/">
+        <link rel="canonical" href="https://sebbouez.github.io/finko-docs/guides/reports/">
       
       
-        <link rel="prev" href="../filter-account-transactions/">
+        <link rel="prev" href="../budgets/">
       
       
-        <link rel="next" href="../budgets/">
+        <link rel="next" href="../../changelog/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Recurring transactions - Finko Docs</title>
+        <title>Reports - Finko Docs</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#create-and-manage-recurring-transactions" class="md-skip">
+        <a href="#optimize-your-spending-with-reports-in-finko" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Recurring transactions
+              Reports
             
           </span>
         </div>
@@ -419,32 +419,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Recurring transactions
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../recurring-transactions/" class="md-nav__link">
         
   
   
@@ -455,35 +433,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#create-recurring-transactions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Create recurring transactions
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -516,10 +465,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../reports/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -530,6 +488,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -606,23 +565,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#create-recurring-transactions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Create recurring transactions
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -637,80 +579,10 @@
 
 
 
-<h1 id="create-and-manage-recurring-transactions">Create and manage recurring transactions<a class="headerlink" href="#create-and-manage-recurring-transactions" title="Permanent link">&para;</a></h1>
-<p>Recurring transactions are transactions that occur regularly such as your salary, various subscriptions...
-In Finko, recurring transactions can be set to:</p>
-<ul>
-<li>each week</li>
-<li>each month</li>
-<li>each trimester</li>
-<li>each quarter</li>
-<li>each half year</li>
-<li>each year</li>
-</ul>
-<p>Setting recurring transactions help you see what's coming in the <strong>Account Forecast</strong>.</p>
+<h1 id="optimize-your-spending-with-reports-in-finko">Optimize your spending with reports in Finko<a class="headerlink" href="#optimize-your-spending-with-reports-in-finko" title="Permanent link">&para;</a></h1>
+<p>Reports are a good method to analyze your expenses and income throughout the year.</p>
 <div class="admonition note">
-<p>In the current version, recurring transactions are not automatically added to the account when time approaches.<br />
-You have to go to the <strong>Transactions scheduler</strong> then use the <strong>Create transaction in target account</strong> button.<br />
-This behavior will change in the coming releases.  </p>
-</div>
-<h2 id="create-recurring-transactions">Create recurring transactions<a class="headerlink" href="#create-recurring-transactions" title="Permanent link">&para;</a></h2>
-<p>To create recurring transactions, follow those steps:</p>
-<ol>
-<li>Open the <strong>Transactions scheduler</strong></li>
-<li>Click the <strong>New transaction</strong> button</li>
-<li>Fill the fields in the dialog:</li>
-</ol>
-<table>
-<thead>
-<tr>
-<th>Field</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Label</td>
-<td>A label that describes the transaction, for example "Salary"</td>
-</tr>
-<tr>
-<td>Type</td>
-<td>TODO</td>
-</tr>
-<tr>
-<td>Account</td>
-<td>The source account that is impacted by the transaction</td>
-</tr>
-<tr>
-<td>Target Account</td>
-<td>The target account that is impacted by the transaction, when you select the type "transfer"</td>
-</tr>
-<tr>
-<td>Mode</td>
-<td>Specifies how the transaction will occur</td>
-</tr>
-<tr>
-<td>Next time</td>
-<td>The date of the next iteration</td>
-</tr>
-<tr>
-<td>Third party</td>
-<td>The third party associated to this transaction</td>
-</tr>
-<tr>
-<td>Category</td>
-<td>The category associated to this transaction</td>
-</tr>
-<tr>
-<td>Amount</td>
-<td>The amount of the transaction</td>
-</tr>
-</tbody>
-</table>
-<div class="admonition note">
-<p>In the current version, it is not possible to create a third party or a category from this screen.<br />
-You have to first create the values in the <strong>Manage third parties</strong> and <strong>Manage categories</strong> menus.
-This behavior will change in the coming releases.  </p>
+<p>Reports are not available for the moment.</p>
 </div>
 
 
