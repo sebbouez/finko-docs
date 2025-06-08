@@ -16,9 +16,11 @@ extra_css:
 nav:
   - Home: index.md
   - User Guide:
-    - Getting started: guide.md
+    - Getting started: guides/get-started.md
     - Filter transactions: guides/filter-account-transactions.md
     - Recurring transactions: guides/recurring-transactions.md
+    - Budgets: guides/budgets.md
+    - Reports: guides/reports.md
   - Updates: changelog.md
   - Privacy: privacy.md
 markdown_extensions:
