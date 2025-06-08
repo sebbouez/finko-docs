@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://sebbouez.github.io/finko-docs/">
+        <link rel="canonical" href="https://sebbouez.github.io/finko-docs/guides/recurring-transactions/">
       
       
+        <link rel="prev" href="../filter-account-transactions/">
       
-        <link rel="next" href="guide/">
+      
+        <link rel="next" href="../../changelog/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>Finko Docs</title>
+        <title>Recurring transactions - Finko Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/custom.css">
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#finko-online-documentation" class="md-skip">
+        <a href="#create-and-manage-recurring-transactions" class="md-skip">
           Skip to content
         </a>
       
@@ -88,7 +90,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Finko Docs" class="md-header__button md-logo" aria-label="Finko Docs" data-md-component="logo">
+    <a href="../.." title="Finko Docs" class="md-header__button md-logo" aria-label="Finko Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -108,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Recurring transactions
             
           </span>
         </div>
@@ -191,11 +193,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -212,11 +212,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="guide/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../guide/" class="md-tabs__link">
           
   
   
@@ -234,7 +236,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="changelog/" class="md-tabs__link">
+      <a href="../../changelog/" class="md-tabs__link">
         
   
   
@@ -253,7 +255,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="privacy/" class="md-tabs__link">
+      <a href="../../privacy/" class="md-tabs__link">
         
   
   
@@ -288,7 +290,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Finko Docs" class="md-nav__button md-logo" aria-label="Finko Docs" data-md-component="logo">
+    <a href="../.." title="Finko Docs" class="md-nav__button md-logo" aria-label="Finko Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -303,19 +305,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -326,7 +319,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -335,24 +327,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -365,7 +362,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             User Guide
@@ -379,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guide/" class="md-nav__link">
+      <a href="../../guide/" class="md-nav__link">
         
   
   
@@ -402,7 +399,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/filter-account-transactions/" class="md-nav__link">
+      <a href="../filter-account-transactions/" class="md-nav__link">
         
   
   
@@ -422,10 +419,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="guides/recurring-transactions/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Recurring transactions
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -436,6 +455,35 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-recurring-transactions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create recurring transactions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -455,7 +503,7 @@
   
   
     <li class="md-nav__item">
-      <a href="changelog/" class="md-nav__link">
+      <a href="../../changelog/" class="md-nav__link">
         
   
   
@@ -477,7 +525,7 @@
   
   
     <li class="md-nav__item">
-      <a href="privacy/" class="md-nav__link">
+      <a href="../../privacy/" class="md-nav__link">
         
   
   
@@ -512,6 +560,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#create-recurring-transactions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Create recurring transactions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -526,13 +591,81 @@
 
 
 
-<h1 id="finko-online-documentation">Finko online documentation<a class="headerlink" href="#finko-online-documentation" title="Permanent link">&para;</a></h1>
-<p>Finko is a software for Windows 10 (and above) to help you manage personal finance.</p>
-<p>Finko is available in the Microsoft Store on Windows for free without any subscription.<br />
-It was created to rekindle the passion for Microsoft Money in the early 2000s.</p>
-<p>The product is currently in <strong>Technical Preview</strong>. You can use it regularly but be aware that there may be some glitches. <br />
-Feel free to send error reports and ideas using the <a href="https://github.com/sebbouez/Finko/issues">https://github.com/sebbouez/Finko/issues</a> link.</p>
-<p>Hope you'll enjoy using Finko as much as we enjoyed creating it.</p>
+<h1 id="create-and-manage-recurring-transactions">Create and manage recurring transactions<a class="headerlink" href="#create-and-manage-recurring-transactions" title="Permanent link">&para;</a></h1>
+<p>Recurring transactions are transactions that occur regularly such as your salary, various subscriptions...
+In Finko, recurring transactions can be set to:</p>
+<ul>
+<li>each week</li>
+<li>each month</li>
+<li>each trimester</li>
+<li>each quarter</li>
+<li>each half year</li>
+<li>each year</li>
+</ul>
+<p>Setting recurring transactions help you see what's coming in the <strong>Account Forecast</strong>.</p>
+<div class="admonition note">
+<p>In the current version, recurring transactions are not automatically added to the account when time approaches.<br />
+You have to go to the <strong>Transactions scheduler</strong> then use the <strong>Create transaction in target account</strong> button.<br />
+This behavior will change in the coming releases.  </p>
+</div>
+<h2 id="create-recurring-transactions">Create recurring transactions<a class="headerlink" href="#create-recurring-transactions" title="Permanent link">&para;</a></h2>
+<p>To create recurring transactions, follow those steps:</p>
+<ol>
+<li>Open the <strong>Transactions scheduler</strong></li>
+<li>Click the <strong>New transaction</strong> button</li>
+<li>Fill the fields in the dialog:</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Label</td>
+<td>A label that describes the transaction, for example "Salary"</td>
+</tr>
+<tr>
+<td>Type</td>
+<td>TODO</td>
+</tr>
+<tr>
+<td>Account</td>
+<td>The source account that is impacted by the transaction</td>
+</tr>
+<tr>
+<td>Target Account</td>
+<td>The target account that is impacted by the transaction, when you select the type "transfer"</td>
+</tr>
+<tr>
+<td>Mode</td>
+<td>Specifies how the transaction will occur</td>
+</tr>
+<tr>
+<td>Next time</td>
+<td>The date of the next iteration</td>
+</tr>
+<tr>
+<td>Third party</td>
+<td>The third party associated to this transaction</td>
+</tr>
+<tr>
+<td>Category</td>
+<td>The category associated to this transaction</td>
+</tr>
+<tr>
+<td>Amount</td>
+<td>The amount of the transaction</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p>In the current version, it is not possible to create a third party or a category from this screen.<br />
+You have to first create the values in the <strong>Manage third parties</strong> and <strong>Manage categories</strong> menus.
+This behavior will change in the coming releases.  </p>
+</div>
 
 
 
@@ -596,10 +729,10 @@ Feel free to send error reports and ideas using the <a href="https://github.com/
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "toc.follow"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "toc.follow"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
     
   </body>

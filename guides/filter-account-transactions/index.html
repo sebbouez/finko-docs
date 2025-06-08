@@ -8,26 +8,28 @@
       
       
       
-        <link rel="canonical" href="https://sebbouez.github.io/finko-docs/">
+        <link rel="canonical" href="https://sebbouez.github.io/finko-docs/guides/filter-account-transactions/">
       
       
+        <link rel="prev" href="../../guide/">
       
-        <link rel="next" href="guide/">
+      
+        <link rel="next" href="../recurring-transactions/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>Finko Docs</title>
+        <title>Filter transactions - Finko Docs</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.342714a4.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.342714a4.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -46,9 +48,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/custom.css">
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#finko-online-documentation" class="md-skip">
+        <a href="#filter-account-transactions" class="md-skip">
           Skip to content
         </a>
       
@@ -88,7 +90,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Finko Docs" class="md-header__button md-logo" aria-label="Finko Docs" data-md-component="logo">
+    <a href="../.." title="Finko Docs" class="md-header__button md-logo" aria-label="Finko Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -108,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Filter transactions
             
           </span>
         </div>
@@ -191,11 +193,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
         
   
   
@@ -212,11 +212,13 @@
   
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="guide/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../guide/" class="md-tabs__link">
           
   
   
@@ -234,7 +236,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="changelog/" class="md-tabs__link">
+      <a href="../../changelog/" class="md-tabs__link">
         
   
   
@@ -253,7 +255,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="privacy/" class="md-tabs__link">
+      <a href="../../privacy/" class="md-tabs__link">
         
   
   
@@ -288,7 +290,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Finko Docs" class="md-nav__button md-logo" aria-label="Finko Docs" data-md-component="logo">
+    <a href="../.." title="Finko Docs" class="md-nav__button md-logo" aria-label="Finko Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -303,19 +305,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
         
   
   
@@ -326,7 +319,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -335,24 +327,29 @@
       
   
   
+    
   
   
+  
     
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   
@@ -365,7 +362,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             User Guide
@@ -379,7 +376,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guide/" class="md-nav__link">
+      <a href="../../guide/" class="md-nav__link">
         
   
   
@@ -399,10 +396,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="guides/filter-account-transactions/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    Filter transactions
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -413,6 +432,59 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-period-drop-down" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using the period drop down
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-search-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using search bar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using search bar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -425,7 +497,7 @@
   
   
     <li class="md-nav__item">
-      <a href="guides/recurring-transactions/" class="md-nav__link">
+      <a href="../recurring-transactions/" class="md-nav__link">
         
   
   
@@ -455,7 +527,7 @@
   
   
     <li class="md-nav__item">
-      <a href="changelog/" class="md-nav__link">
+      <a href="../../changelog/" class="md-nav__link">
         
   
   
@@ -477,7 +549,7 @@
   
   
     <li class="md-nav__item">
-      <a href="privacy/" class="md-nav__link">
+      <a href="../../privacy/" class="md-nav__link">
         
   
   
@@ -512,6 +584,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#using-the-period-drop-down" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using the period drop down
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-search-bar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using search bar
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using search bar">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#examples" class="md-nav__link">
+    <span class="md-ellipsis">
+      Examples
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -526,13 +639,50 @@
 
 
 
-<h1 id="finko-online-documentation">Finko online documentation<a class="headerlink" href="#finko-online-documentation" title="Permanent link">&para;</a></h1>
-<p>Finko is a software for Windows 10 (and above) to help you manage personal finance.</p>
-<p>Finko is available in the Microsoft Store on Windows for free without any subscription.<br />
-It was created to rekindle the passion for Microsoft Money in the early 2000s.</p>
-<p>The product is currently in <strong>Technical Preview</strong>. You can use it regularly but be aware that there may be some glitches. <br />
-Feel free to send error reports and ideas using the <a href="https://github.com/sebbouez/Finko/issues">https://github.com/sebbouez/Finko/issues</a> link.</p>
-<p>Hope you'll enjoy using Finko as much as we enjoyed creating it.</p>
+<h1 id="filter-account-transactions">Filter account transactions<a class="headerlink" href="#filter-account-transactions" title="Permanent link">&para;</a></h1>
+<p>In the Account view, you can easily filter and search for transactions.</p>
+<h2 id="using-the-period-drop-down">Using the period drop down<a class="headerlink" href="#using-the-period-drop-down" title="Permanent link">&para;</a></h2>
+<p>The period drop down allows you to filter transactions made within a specified time range.<br />
+The default values are:
+* All transactions
+* Last 3 months
+* Last 30 days</p>
+<div class="admonition note">
+<p>More options will be available later. Keep Finko updated.</p>
+</div>
+<h2 id="using-search-bar">Using search bar<a class="headerlink" href="#using-search-bar" title="Permanent link">&para;</a></h2>
+<p>The search bar is located at the top right of the transactions list.<br />
+When you enter text to search, the search will be performed on the transaction's Label field.<br />
+The search is not case sensitive and matchs when the values contain the specified text.<br />
+You can however search in the thirdparty name or in the category name using the patterns bellow:</p>
+<table>
+<thead>
+<tr>
+<th>Pattern</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>tp:TEXT</code></td>
+<td>Will search transactions with when the thirdparty name contains the specified text</td>
+</tr>
+<tr>
+<td><code>cat:TEXT</code></td>
+<td>Will search transactions with when the category name contains the specified text</td>
+</tr>
+</tbody>
+</table>
+<h3 id="examples">Examples<a class="headerlink" href="#examples" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Type <code>tp:Amazon</code> in the search box to search for transactions made with Amazon.<br />
+You can also just type <code>tp:ama</code>.</p>
+</li>
+<li>
+<p>Type <code>cat:food</code> in the search box to search for transactions with the "Food" category.</p>
+</li>
+</ul>
 
 
 
@@ -596,10 +746,10 @@ Feel free to send error reports and ideas using the <a href="https://github.com/
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "toc.follow"], "search": "assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "toc.follow"], "search": "../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.13a4f30d.min.js"></script>
+      <script src="../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
     
   </body>
