@@ -5,17 +5,15 @@ theme:
   extra_css:
     - assets/css/custom.css
   language: en
+  features:
+    - navigation.tabs
+    - toc.follow
   palette:
     - media: "(prefers-color-scheme: light)"
-      scheme: default
-      primary: indigo
-      accent: indigo
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: indigo
-      accent: indigo
+      primary: custom
 nav:
   - Home: index.md
+  - User Guide: guide.md
   - Privacy: privacy.md
 markdown_extensions:
   - admonition

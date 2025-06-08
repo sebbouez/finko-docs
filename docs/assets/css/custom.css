@@ -1,4 +1,19 @@
 :root {
   --md-text-font: 'Segoe UI Variable Text','Segoe UI', system-ui, sans-serif;
   --md-code-font: 'Fira Code', monospace;
+
+
+  --md-primary-fg-color: #076F38; /* Couleur principale */
+  --md-primary-bg-color: #ffffff; /* Fond principal */
+  --md-accent-fg-color: #076F38;  /* Couleur d'accent */
+  --md-typeset-color: #242424;
+}
+
+
+
+.md-typeset .admonition,
+.md-typeset details {
+  box-shadow: none;
+  border-width: 0;
+  border-left-width: 4px;
 }
