@@ -9,3 +9,5 @@ The product is currently in **Technical Preview**. You can use it regularly but 
 Feel free to send error reports and ideas using the [https://github.com/sebbouez/Finko/issues](https://github.com/sebbouez/Finko/issues) link.
 
 Hope you'll enjoy using Finko as much as we enjoyed creating it.
+
+Finko is currently available in English, French, Italian, Spanish.

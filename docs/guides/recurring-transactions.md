@@ -5,7 +5,6 @@ In Finko, recurring transactions can be set to:
 
 * each week
 * each month
-* each trimester
 * each quarter
 * each half year
 * each year

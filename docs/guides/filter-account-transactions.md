@@ -6,7 +6,8 @@ In the Account view, you can easily filter and search for transactions.
 ## Using the period drop down
 
 The period drop down allows you to filter transactions made within a specified time range.  
-The default values are:
+The default values are:  
+
 * All transactions
 * Last 3 months
 * Last 30 days
