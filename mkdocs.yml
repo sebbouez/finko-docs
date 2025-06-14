@@ -17,12 +17,16 @@ nav:
   - Home: index.md
   - User Guide:
     - Getting started: guides/get-started.md
+    - Account view: guides/account-view.md
     - Filter transactions: guides/filter-account-transactions.md
     - Recurring transactions: guides/recurring-transactions.md
     - Budgets: guides/budgets.md
     - Reports: guides/reports.md
   - Updates: changelog.md
   - Privacy: privacy.md
+plugins:
+  - search
+  - macros
 markdown_extensions:
   - admonition
   - codehilite

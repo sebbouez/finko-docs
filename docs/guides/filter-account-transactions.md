@@ -34,3 +34,9 @@ You can however search in the thirdparty name or in the category name using the 
 You can also just type `tp:ama`.
 
 * Type `cat:food` in the search box to search for transactions with the "Food" category.
+
+## Using context menu
+
+
+* Right click on a transaction in the list of the **Account view** then click **Transactions with the same category** to filter only the transactions with the category of the selected transaction.
+* Right click on a transaction in the list of the **Account view** then click **Transactions with the same third party** to filter only the transactions with the third party of the selected transaction.
