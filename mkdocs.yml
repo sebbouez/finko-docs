@@ -26,7 +26,6 @@ nav:
   - Privacy: privacy.md
 plugins:
   - search
-  - macros
 markdown_extensions:
   - admonition
   - codehilite
