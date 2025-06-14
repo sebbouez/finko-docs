@@ -16,4 +16,4 @@ def define_env(env):
     
         return markdown
 
-    env.on_page_markdown(on_page_markdown)
+    env.on_page_markdown(on_page_markdown, page, config)
