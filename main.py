@@ -1,6 +1,7 @@
 ﻿import re
 
-import re
+from mkdocs.config.defaults import MkDocsConfig
+from mkdocs.structure.pages import Page
 
 def define_env(env):
 
@@ -16,4 +17,4 @@ def define_env(env):
     
         return markdown
 
-    env.on_page_markdown(on_page_markdown, page, config)
+    env.on_page_markdown(on_page_markdown, Page, MkDocsConfig)
