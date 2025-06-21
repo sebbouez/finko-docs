@@ -7,9 +7,18 @@ Widgets are shown at the top the this view. They give you information about expe
 ### Customize widgets
 _Added in 2025.6.14.0_
 
-To hide the widgets bar:
+To hide the widgets bar:  
+
 * Right click the widgets area
 * Select **Hide widgets bar**
+
+_Added in 2025.6.21.0_
+
+To toggle the widgets bar visibility:  
+
+* Open the **application settings** dialog
+* Go to the **display** section
+* Toggle the **Display widgets on the Account page** option
 
 
 ## Transactions list

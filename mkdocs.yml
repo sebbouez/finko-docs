@@ -22,6 +22,7 @@ nav:
     - Recurring transactions: guides/recurring-transactions.md
     - Budgets: guides/budgets.md
     - Reports: guides/reports.md
+    - Protecting files: guides/protect-files.md
   - Updates: changelog.md
   - Privacy: privacy.md
 plugins:

@@ -21,12 +21,12 @@ The default values are:
 The search bar is located at the top right of the transactions list.  
 When you enter text to search, the search will be performed on the transaction's Label field.  
 The search is not case sensitive and matchs when the values contain the specified text.  
-You can however search in the thirdparty name or in the category name using the patterns bellow:
+You can however search in the third party name or in the category name using the patterns bellow:
 
-| Pattern    | Description                                                                        |
-|------------|------------------------------------------------------------------------------------|
-| `tp:TEXT`  | Will search transactions with when the thirdparty name contains the specified text |
-| `cat:TEXT` | Will search transactions with when the category name contains the specified text   |
+| Pattern    | Description                                                                         |
+|------------|-------------------------------------------------------------------------------------|
+| `tp:TEXT`  | Will search transactions with when the third party name contains the specified text |
+| `cat:TEXT` | Will search transactions with when the category name contains the specified text    |
 
 ### Examples
 
