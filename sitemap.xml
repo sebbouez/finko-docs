@@ -2,58 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sebbouez.github.io/finko-docs/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/changelog/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/guide/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/privacy/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/guides/account-view/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/guides/budgets/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/guides/filter-account-transactions/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/guides/get-started/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/guides/protect-files/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/guides/recurring-transactions/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/guides/reports/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/updates/2025.6.14.0/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/updates/2025.6.21.0/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
+    </url>
+    <url>
+         <loc>https://sebbouez.github.io/finko-docs/updates/2025.6.29.0/</loc>
+         <lastmod>2025-06-29</lastmod>
     </url>
     <url>
          <loc>https://sebbouez.github.io/finko-docs/updates/2025.6.9.0/</loc>
-         <lastmod>2025-06-21</lastmod>
+         <lastmod>2025-06-29</lastmod>
     </url>
 </urlset>
