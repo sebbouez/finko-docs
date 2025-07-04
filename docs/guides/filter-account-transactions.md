@@ -11,6 +11,7 @@ The default values are:
 * All transactions
 * Last 3 months
 * Last 30 days
+* Current month
 
 !!! note ""
 
@@ -36,7 +37,6 @@ You can also just type `tp:ama`.
 * Type `cat:food` in the search box to search for transactions with the "Food" category.
 
 ## Using context menu
-
 
 * Right click on a transaction in the list of the **Account view** then click **Transactions with the same category** to filter only the transactions with the category of the selected transaction.
 * Right click on a transaction in the list of the **Account view** then click **Transactions with the same third party** to filter only the transactions with the third party of the selected transaction.
