@@ -8,9 +8,10 @@ Finko can collect data when errors happen.
 You can easily decide to send technical data or not. By default, it's **ON**.
 
 To disable error reports:  
-* Open the **application settings** dialog
-* Select **telemetry**
-* Disable the items you don't want Finko to collect
+
+* Open the **application settings** dialog  
+* Select **telemetry**  
+* Disable the items you don't want Finko to collect  
 
 No data can help identify you.  
 Finko does not collect any sensitive information about your accounts or your private life.

@@ -5,6 +5,7 @@ Creating category-based budgets is a good way to limit unnecessary spending.
 ## Create a budget
 
 To create a budget: 
+
 1. Go to the account you want to track expenses
 2. Click **on the category name** of a transaction
 3. In the pop up window, click the **3 dots button** (bottom right)
@@ -14,7 +15,8 @@ To create a budget:
 
 ## Edit a budget
 
-To change a budget settings:
+To change a budget settings:  
+
 1. Go to the **Budget summary** view
 2. Click on the **3 dots button** (top right) in the budget card
 3. Select **budget properties...**
@@ -23,7 +25,8 @@ To change a budget settings:
 
 ## Delete a budget
 
-To delete a budget:
+To delete a budget:  
+
 1. Go to the **Budget summary** view
 2. Click on the **3 dots button** (top right) in the budget card
 3. Select **delete**
